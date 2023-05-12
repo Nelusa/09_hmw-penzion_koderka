@@ -247,12 +247,18 @@ section {
 .about {
   box-shadow: inset 0 0 50px var(--grey-900);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: var(--spacer-bigger);
 }
 
 .about__content {
   grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /*

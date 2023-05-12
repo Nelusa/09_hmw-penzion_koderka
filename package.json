@@ -1,0 +1,24 @@
+{
+  "name": "09_hmw-penzion_koderka",
+  "version": "1.0.0",
+  "description": "Povinný úkol pro kurz Staň se kóderkou od Czechitas.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nelusa/09_hmw-penzion_koderka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nelusa/09_hmw-penzion_koderka/issues"
+  },
+  "homepage": "https://github.com/Nelusa/09_hmw-penzion_koderka#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
